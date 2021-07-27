@@ -18,8 +18,8 @@
 
     <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}" method="post">
-      <input type="text" name="sl" placeholder="Informe o tipo de valor : (1- Alto, 2- Baixo, 3- Médio, 4 - Muito Alto)" required="required" />
-      <input type="text" name="sw" placeholder="Informe o tamanho que deseja = (1- Alto, 2- Baixo, 3- Med, 4 - Muito grande)" required="required" />
+      <input type="text" name="sl" placeholder="Informe o tipo de valor : (0- Alto, 1- Baixo, 2- Médio, 3 - Muito Alto)" required="required" />
+      <input type="text" name="sw" placeholder="Informe o tamanho que deseja = (0- Alto, 1- Baixo, 2- Med, 3 - Muito grande)" required="required" />
       <input type="text" name="pl" placeholder="Informe a quantidade de portas: (0 - 2, 1 - 3, 2 - 5 ou mais, 3 - 4)" required="required" />
       <input type="text" name="pw" placeholder="Quantidade de pessoas que irá andar no carro : (0 - 2, 1 - 4, 2 - mais)" required="required" />
       <input type="text" name="pl" placeholder="Tamanho do porta malas: (0 - Grande, 1 - Médio, 2 - Pequeno)" required="required" />
